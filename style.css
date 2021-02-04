@@ -101,5 +101,11 @@ a {
 
 #projects {
     text-align: center;
-    background-color: dodgerblue;
+    background-color: cyan;
+} 
+
+#contact
+{
+    text-align: center;
+    background-color: cyan;
 }
