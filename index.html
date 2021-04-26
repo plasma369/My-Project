@@ -1,62 +1,52 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <title>Paragraphs Builder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<head>
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+        <script src="main.js"></script>
 
-    <center>
-        <ul class="menu">
-            <li class="links"><a href="#welcome">HOME</a></li>
-            <li class="links"><a href="#contact">CONTACT</a></li>
-            <li class="links"><a href="#projects">PROJECTS</a></li>
-        </ul>
-    </center>
-</head>
-
-<body>
-    <section id="welcome">
-        <div class="parallax-inner">
-            <img src="" class="profile" />
-            <h1 id="name">I am <br> Brett Wallace</h1>
-            <h2> I am a certified game developer, and an app creator</h2>
-        </div>
-    </section>
-    <section id="bio">
-        <!DOCTYPE html>
-        <html lang="">
-
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title></title>
-            <link rel="stylesheet">
-        </head>
-
-        </html>
-        
-        <br><br>
-        
-    </section>
-    <section id="projects">
-        <h1>PROJECTS</h1>
-        <div class="line"></div> <br>
-        <div>
-            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/vzU9IWJiuc7XTpMhaRveuHQX4YZ9ilwSkJWOdr1w4PU/embed"></iframe>
-            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/BHA4Xc5iemO-eeBnMpW48zWcJM07GOlI0HwjfcnRKF0/embed"></iframe>
+    </head>
+    <body>
+        <center>
             <div>
-
+                <span>#1 </span>
+                <input type="text" id="para1_1" placeholder="Input Box 1">
+                <br>
+                <span>#2 </span>
+                <input type="text" id="para1_2" placeholder="Input Box 2">
+                <br>
+                <span>#3 </span>
+                <input type="text" id="para1_3" placeholder="Input Box 3">
+                <br>
+                <span>#4 </span>
+                <input type="text" id="para1_4" placeholder="Input Box 4">
+                <br><br>
+                <button onclick="GetPera1()">Get Paragraph 1</button>
+                <br><br>
+                <label id="pera1"></label>
             </div>
-        </div>
-    </section>
-</body>
-<footer>
-    <section id="contact">
-        <a href="mailto:lavabss@gmail.com?subject=hello!">
-            <i class="envolope"></i>
-            <h1>lavaboss@gmail.com</h1>
-        </a>
-    </section>
-</footer>
-
+            <br><br>
+            <div>
+                <span>#1 </span>
+                <input type="text" id="para2_1" placeholder="Input Box 1">
+                <br>
+                <span>#2 </span>
+                <input type="text" id="para2_2" placeholder="Input Box 2">
+                <br>
+                <span>#3 </span>
+                <input type="text" id="para2_3" placeholder="Input Box 3">
+                <br>
+                <span>#4 </span>
+                <input type="text" id="para2_4" placeholder="Input Box 4">
+                <br><br>
+                <button onclick="GetPera2()">Get Paragraph2</button>
+                <br><br>
+                <lebel id="pera2"></lebel>
+            </div>
+        </center>
+    </body>
 </html>
